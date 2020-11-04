@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(148, 148, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Cabeçalho {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: whitesmoke;
+    border-bottom: 3px solid black;
+    z-index: 1;
+    font-size: 35px;
+    text-align: center;
+}
+
+#Razao_Social {
+    position: absolute;
+    font-size: 20px;
+    width: 600px;
+    top: 100px;
+    left: 100px;
+    background-color: rgb(148, 148, 148); ;
+
+}
+
+#CNPJ {
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 100px;
+    left: 350px;
+    background-color: transparent;
+}
+
+#Telefone {
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 100px;
+    left: 600px;
+    background-color: transparent;
+}
+
+#Endereco {
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 200px;
+    left: 100px;
+    background-color: transparent;
+}
+
+#Complemento {
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 200px;
+    left: 350px;
+    background-color: transparent;
+}
+
+#Cidade {
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 200px;
+    left: 600px;
+    background-color: transparent;
+}
+
+#Estado {
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 200px;
+    left: 850px;
+    background-color: transparent;
+}
+
+#Voltar {
+    position: absolute;
+    left:1275px;
+    top: 5px;
+    z-index: 2;
+}
+
+#Encerrar {
+    position: absolute;
+    left:1320px;
+    top: 5px;
+    z-index: 3;
+}
+

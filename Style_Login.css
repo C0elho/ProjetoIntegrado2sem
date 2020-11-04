@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(148, 148, 148);
+    background-image: url(img/Officeeditado.jpg);
+    background-size: 1366px 768px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#Login{
+    width: 330px;
+    height: 400px;
+    border: 2px solid;
+    border-radius: 80px 0px 80px 0px;
+    color: whitesmoke;
+    background-color:  rgba(0,0,5,0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;     
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 0px 60px;
+}
+
+#Usuário{
+    border-radius: 15%;
+    position: absolute;
+    top: -70px;
+    left: 112px;   
+}
+
+h1{
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 0;
+    padding-bottom: 0px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Login input {
+    width: 100%;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+#Esqueceu_senha {
+    color: whitesmoke;
+    font-style: italic;
+    text-decoration: unset;
+    text-align: center;
+}
+
+#Login input[type="submit"] {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+#Login input[type="text"], input[type="password"] {
+    border-bottom: 2px whitesmoke;
+    background: transparent;
+    outline: whitesmoke;
+    height: 20px;
+    font-size: 15px;
+    color: whitesmoke;
+    border: none;
+}
+
+#Login input {
+    width: 100%;
+    margin-bottom: 18px;
+}

@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(148, 148, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Cabeçalho {
+    position: absolute;
+    left:0px;
+    top: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: whitesmoke;
+    border-bottom: 3px solid black;
+    z-index: 1;
+    font-size: 35px;
+    text-align: center;
+}
+
+#Imagem_Cadastro {
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+
+#Titulo_Clientes {
+    position: absolute;
+    left: 30px;
+    top: 145;
+    font-size: 25px;
+}
+
+#Cadastrar_Clientes {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+
+}
+
+#Consultar_Clientes {
+    width: 100px;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+
+#Alterar_Clientes {
+    width: 100px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+
+#Excluir_Clientes {
+    width: 100px;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+}
+
+#Imagem_Produto {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+#Titulo_Produtos {
+    position: absolute;
+    left: 35px;
+    top: 400;
+    font-size: 25px;
+}
+
+#Cadastrar_Produtos {
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 375px;
+}
+
+#Alterar_Produtos{
+    width: 100px;
+    position: absolute;
+    left: 350px;
+    top: 375px;
+}
+
+#Buscar_Produtos{
+    width: 100px;
+    position: absolute;
+    left: 500px;
+    top: 375px;
+}
+
+#Encerrar {
+    position: absolute;
+    left:1320px;
+    top: 5px;
+    z-index: 2;
+}
